@@ -1,0 +1,17 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin gridCenter {
+    display: grid;
+    place-items: center;
+}
+
+@mixin button {
+    size: 16px;
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: bold;
+}
